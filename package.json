@@ -1,0 +1,37 @@
+{
+  "name": "error-constructor-verifier",
+  "version": "1.0.0",
+  "description": "A lightweight npm package to check if a value is an error constructor. Useful for validating error constructors in JavaScript applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmooncommunity/error-constructor-verifier.git"
+  },
+  "keywords": [
+    "error",
+    "constructor",
+    "verification",
+    "validation"
+  ],
+	"author": {
+		"name": "SpaceHub Studio",
+		"email": "support@spacehubnetwork.com",
+		"url": "https://spacehubnetwork.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openmooncommunity/error-constructor-verifier/issues"
+  },
+  "homepage": "https://github.com/openmooncommunity/error-constructor-verifier/tree/main#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
